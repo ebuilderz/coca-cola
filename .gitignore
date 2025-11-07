@@ -1,0 +1,28 @@
+# Ignore custom configuration files
+# wp-config.php
+#wp-config-sample.php
+wp-config.php
+# Ignore log files
+*.log
+
+.htaccess
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore IDE files (e.g., Visual Studio Code, PHPStorm)
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore composer lock if you're using composer for dependencies (unnecessary for most WordPress setups)
+composer.lock
+
+# Ignore any other local configuration files or temporary files that don't need to be versioned
+*.local
+*.env
